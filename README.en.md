@@ -8,7 +8,7 @@
 
 <p>AI search that runs on your own PC. Describe something the way you remember it,<br>and jump straight to the photo, the seconds in a video, the line in a recording, the page in a document.</p>
 
-<a href="https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-0.6.5.exe"><img src="https://img.shields.io/badge/Download-0.6.5_%C2%B7_715_MB-2f9e9a?style=for-the-badge&logo=windows11&logoColor=white" alt="Download"></a> <a href="#download"><img src="https://img.shields.io/badge/GPU_edition-NVIDIA-4a5a59?style=for-the-badge&logo=nvidia&logoColor=white" alt="GPU edition"></a> <a href="https://seek.threebrook.com/en/"><img src="https://img.shields.io/badge/Website-seek.threebrook.com-6b7b7a?style=for-the-badge" alt="Website"></a>
+<a href="https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-0.6.6.exe"><img src="https://img.shields.io/badge/Download-0.6.6_%C2%B7_686_MB-2f9e9a?style=for-the-badge&logo=windows11&logoColor=white" alt="Download"></a> <a href="#download"><img src="https://img.shields.io/badge/GPU_edition-NVIDIA-4a5a59?style=for-the-badge&logo=nvidia&logoColor=white" alt="GPU edition"></a> <a href="https://seek.threebrook.com/en/"><img src="https://img.shields.io/badge/Website-seek.threebrook.com-6b7b7a?style=for-the-badge" alt="Website"></a>
 
 <img src="https://img.shields.io/github/v/release/ThreeBrook/ThreeBrook-Seek?label=release&color=2f9e9a" alt="release"> <img src="https://img.shields.io/github/downloads/ThreeBrook/ThreeBrook-Seek/total?label=downloads&color=2f9e9a" alt="downloads"> <img src="https://img.shields.io/badge/Windows-10_%2F_11_%C2%B7_64--bit-2f9e9a?style=flat" alt="Windows 10 / 11"> <img src="https://img.shields.io/badge/privacy-on--device_%C2%B7_no_uploads-2f9e9a?style=flat" alt="privacy">
 
@@ -80,21 +80,21 @@ Threebrook is named after the three brooks that meet in the middle of our town. 
 ### Your files stay on your PC
 
 - **Nothing uploaded.** The AI models are installed with the app. Indexing and search happen on your PC, and it works offline.
-- **Nothing collected.** No analytics, no ads, no account. It goes online only when you confirm “Check for updates” on the About page, and then only reads a version file from our website, sending none of your data.
+- **Nothing collected.** No analytics, no ads, no account. It goes online only when you confirm “Check for updates” on the About page, which reads a version file from our website, and when you then click “Download & install” for a new version. None of your data is sent.
 - **Stored encrypted.** The index, thumbnails and recognized text are encrypted, and only your Windows user on this PC can open them.
 - **Sensitive features off by default.** Face grouping and place lookup are turned on only with your separate consent.
 - **Your originals untouched.** Files are only read — never moved, changed or renamed.
 
 ## Download
 
-Latest version **0.6.5** · [What’s new](CHANGELOG.md) · [All releases](https://github.com/ThreeBrook/ThreeBrook-Seek/releases)
+Latest version **0.6.6** · [What’s new](CHANGELOG.md) · [All releases](https://github.com/ThreeBrook/ThreeBrook-Seek/releases)
 
 | | Download | Best for |
 | --- | --- | --- |
-| **Standard**<br>recommended | [ThreebrookSeek-Setup-0.6.5.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-0.6.5.exe) (715 MB) | Any Windows PC. One file: download and double-click. |
-| **GPU** | [ThreebrookSeek-Setup-GPU-0.6.5.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-GPU-0.6.5.exe) (1.9 GB)<br>[ThreebrookSeek-Setup-GPU-0.6.5-2.bin](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-GPU-0.6.5-2.bin) (485 MB) | PCs with an NVIDIA graphics card; indexing is several times faster. **Download both files into the same folder**, then run the .exe. |
+| **Standard**<br>recommended | [ThreebrookSeek-Setup-0.6.6.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-0.6.6.exe) (686 MB) | Any Windows PC. One file: download and double-click. |
+| **GPU** | [ThreebrookSeek-Setup-GPU-0.6.6.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-GPU-0.6.6.exe) (1.9 GB)<br>[ThreebrookSeek-Setup-GPU-0.6.6-2.bin](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-GPU-0.6.6-2.bin) (455 MB) | PCs with an NVIDIA graphics card; indexing is several times faster. **Download both files into the same folder**, then run the .exe. |
 
-- **System:** Windows 10 / 11 (64-bit). About 1.3 GB (Standard) or 4.6 GB (GPU) once installed, plus the index.
+- **System:** Windows 10 / 11 (64-bit). About 1.2 GB (Standard) or 4 GB (GPU) once installed, plus the index.
 - **Install:** no admin rights and no internet connection needed. If something goes wrong or you cancel halfway, it puts everything back the way it was.
 - **Verify:** SHA-256 checksums for every version are on the [releases page](https://github.com/ThreeBrook/ThreeBrook-Seek/releases); check with `Get-FileHash <file>` in PowerShell. You can also download from the [website](https://seek.threebrook.com/en/download).
 
@@ -120,7 +120,7 @@ Every install starts with a **14-day Pro trial**. Activation and the trial both 
 
 <details><summary><b>Does it need the internet?</b></summary>
 
-No. Installing, indexing and searching all happen on your PC, and it works offline. The only time it goes online is when you click “Check for updates” on the About page and confirm; it then reads a version file from our website.
+No. Installing, indexing and searching all happen on your PC, and it works offline. It goes online only when you click “Check for updates” on the About page and confirm, which reads a version file from our website, and when you then click “Download & install” to get a new version.
 
 </details>
 
