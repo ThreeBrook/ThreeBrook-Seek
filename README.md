@@ -8,7 +8,7 @@
 
 <p>在你自己电脑上运行的 AI 媒体搜索。照你记得的样子说一句话，<br>直接找到那张照片、视频里的那几秒、录音里的那句话、文档里的那一页。</p>
 
-<a href="https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-0.6.5.exe"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E6%A0%87%E5%87%86%E7%89%88-0.6.5_%C2%B7_715_MB-2f9e9a?style=for-the-badge&logo=windows11&logoColor=white" alt="下载标准版"></a> <a href="#下载"><img src="https://img.shields.io/badge/%E6%98%BE%E5%8D%A1%E5%8A%A0%E9%80%9F%E7%89%88-NVIDIA-4a5a59?style=for-the-badge&logo=nvidia&logoColor=white" alt="显卡加速版"></a> <a href="https://seek.threebrook.com/"><img src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-seek.threebrook.com-6b7b7a?style=for-the-badge" alt="官网"></a>
+<a href="https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-0.6.6.exe"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E6%A0%87%E5%87%86%E7%89%88-0.6.6_%C2%B7_686_MB-2f9e9a?style=for-the-badge&logo=windows11&logoColor=white" alt="下载标准版"></a> <a href="#下载"><img src="https://img.shields.io/badge/%E6%98%BE%E5%8D%A1%E5%8A%A0%E9%80%9F%E7%89%88-NVIDIA-4a5a59?style=for-the-badge&logo=nvidia&logoColor=white" alt="显卡加速版"></a> <a href="https://seek.threebrook.com/"><img src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-seek.threebrook.com-6b7b7a?style=for-the-badge" alt="官网"></a>
 
 <img src="https://img.shields.io/github/v/release/ThreeBrook/ThreeBrook-Seek?label=%E6%9C%80%E6%96%B0%E7%89%88&color=2f9e9a" alt="release"> <img src="https://img.shields.io/github/downloads/ThreeBrook/ThreeBrook-Seek/total?label=%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&color=2f9e9a" alt="downloads"> <img src="https://img.shields.io/badge/Windows-10_%2F_11_%C2%B7_64--bit-2f9e9a?style=flat" alt="Windows 10 / 11"> <img src="https://img.shields.io/badge/%E9%9A%90%E7%A7%81-%E6%9C%AC%E6%9C%BA%E5%A4%84%E7%90%86_%C2%B7_%E4%B8%8D%E4%B8%8A%E4%BC%A0-2f9e9a?style=flat" alt="privacy">
 
@@ -80,21 +80,21 @@
 ### 你的文件，只在你的电脑上
 
 - **不上传。** AI 模型随软件装在本机，建索引、搜索都在你的电脑上完成，断网也照常用。
-- **不收集。** 没有统计、没有广告、没有账号。只有你在“关于”页确认“检查更新”时，才会读取官网上的一个版本号文件，不带你的任何数据。
+- **不收集。** 没有统计、没有广告、没有账号。只有你在“关于”页确认“检查更新”时，才会读取官网上的一个版本号文件；有新版本时你再点“下载并安装”，才会下载新版安装程序。都不带你的任何数据。
 - **加密保存。** 索引、缩略图、识别出的文字都加密存放，只有你这台电脑上的这个 Windows 用户能打开。
 - **敏感功能默认关闭。** 人脸分组、地点解析要你单独同意才会开启。
 - **不碰原文件。** 只读取，不移动、不修改、不重命名你的照片和文档。
 
 ## 下载
 
-最新版 **0.6.5** · [这一版更新了什么](CHANGELOG.md) · [所有版本](https://github.com/ThreeBrook/ThreeBrook-Seek/releases)
+最新版 **0.6.6** · [这一版更新了什么](CHANGELOG.md) · [所有版本](https://github.com/ThreeBrook/ThreeBrook-Seek/releases)
 
 | | 下载 | 适合 |
 | --- | --- | --- |
-| **标准版**<br>推荐 | [ThreebrookSeek-Setup-0.6.5.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-0.6.5.exe)（715 MB） | 任何 Windows 电脑。一个文件，下载后双击安装。 |
-| **显卡加速版** | [ThreebrookSeek-Setup-GPU-0.6.5.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-GPU-0.6.5.exe)（1.9 GB）<br>[ThreebrookSeek-Setup-GPU-0.6.5-2.bin](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.5/ThreebrookSeek-Setup-GPU-0.6.5-2.bin)（485 MB） | 有 NVIDIA 显卡的电脑，建索引快几倍。**两个文件下载到同一个文件夹**，再运行 .exe。 |
+| **标准版**<br>推荐 | [ThreebrookSeek-Setup-0.6.6.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-0.6.6.exe)（686 MB） | 任何 Windows 电脑。一个文件，下载后双击安装。 |
+| **显卡加速版** | [ThreebrookSeek-Setup-GPU-0.6.6.exe](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-GPU-0.6.6.exe)（1.9 GB）<br>[ThreebrookSeek-Setup-GPU-0.6.6-2.bin](https://github.com/ThreeBrook/ThreeBrook-Seek/releases/download/v0.6.6/ThreebrookSeek-Setup-GPU-0.6.6-2.bin)（455 MB） | 有 NVIDIA 显卡的电脑，建索引快几倍。**两个文件下载到同一个文件夹**，再运行 .exe。 |
 
-- **系统**：Windows 10 / 11（64 位）。安装后约占 1.3 GB（标准版）或 4.6 GB（显卡加速版），另加索引。
+- **系统**：Windows 10 / 11（64 位）。安装后约占 1.2 GB（标准版）或 4 GB（显卡加速版），另加索引。
 - **安装**：不需要管理员权限，不需要联网；装到一半出错或者点了中止，会自动恢复原样。
 - **校验**：每个版本的 SHA-256 写在[发布页](https://github.com/ThreeBrook/ThreeBrook-Seek/releases)里，PowerShell 里用 `Get-FileHash <文件名>` 核对。也可以从[官网下载页](https://seek.threebrook.com/download)下载。
 
@@ -120,7 +120,7 @@
 
 <details><summary><b>需要联网吗？</b></summary>
 
-不需要。安装、建索引、搜索都在本机完成，断网也照常用。唯一会联网的是你在“关于”页点“检查更新”并确认之后，读取官网上的一个版本号文件。
+不需要。安装、建索引、搜索都在本机完成，断网也照常用。只有你在“关于”页点“检查更新”并确认之后，才会读取官网上的一个版本号文件；有新版本时再点“下载并安装”，才会下载新版安装程序。
 
 </details>
 
