@@ -1,5 +1,19 @@
 # 更新记录 / Changelog
 
+## 0.6.6
+
+- 软件里一键更新：“关于”页检查到新版本后，点“下载并安装”，从三溪的下载服务器下载、核对校验值后自动安装，断了可以接着下；不点就不下载，也不发送你的任何数据。（从 0.6.6 起可用，这一次升级仍请在网站下载。）
+- 第一次使用时先问你主要想找什么——家里的照片和视频、会议录音和录屏、工作文档——按用途帮你勾好要加的文件夹。
+- 团子能回答关于软件的常见问题，也会陪你聊几句；对话不保存。闲着两分钟没人理时，它会躲到屏幕边上只露出一只眼睛，碰一下就回来（设置里可以关掉）。
+- 媒体库文件损坏时自动修复，修不好时可以一键重建索引；大约每周自动保存一份加密的快照，出问题时能用来恢复。
+- 安装包小了约 30 MB，装好后少占约 100 MB。
+
+- One-click updates in the app: when the About page finds a new version, click “Download & install”. It downloads from Threebrook’s download server, checks the files, resumes if interrupted, and installs. Nothing is downloaded unless you click, and none of your data is sent. (Available from 0.6.6 on; for this upgrade, please download from the website.)
+- On first launch, the app asks what you mainly want to find (family photos and videos, meeting recordings, work documents) and ticks the matching folders for you.
+- Tuanzi can answer common questions about the app and chat a little; conversations aren’t saved. After two idle minutes it hides at the edge of the screen with just one eye showing, and pops back when you touch it (you can turn this off in Settings).
+- If the library file gets damaged, it’s repaired automatically, and if that fails you can rebuild the index in one click. An encrypted snapshot is saved about once a week to recover from.
+- The installer is about 30 MB smaller and takes about 100 MB less space once installed.
+
 ## 0.6.5
 
 - 没有显卡的电脑建索引快了不少：修正了线程安排，普通笔记本上不再互相抢着算；照片上的文字只在缩小的照片上找，有字的照片照样能搜到，很小的字可能搜不到（设置里可以关掉）。
